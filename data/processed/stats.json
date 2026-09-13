@@ -1,0 +1,49 @@
+{
+  "rows_raw": {
+    "fact_primary_sales.csv": 74880,
+    "fact_targets.csv": 720,
+    "stockouts.csv": 520,
+    "promotions.csv": 40,
+    "dim_sku.csv": 120,
+    "dim_geo.csv": 12,
+    "dim_distributor.csv": 40
+  },
+  "rows_processed": {
+    "sales": 74880,
+    "targets": 720,
+    "stockouts": 520,
+    "promotions": 40,
+    "skus": 120,
+    "geo": 12,
+    "distributors": 40
+  },
+  "national_fy26_primary_sales_inr": 1357631078.74,
+  "target_total_inr": 1360880000,
+  "week_range": [
+    "2025-07-01",
+    "2026-06-23"
+  ],
+  "months": [
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06"
+  ],
+  "mismatches": [
+    "stockouts.region has 16 variants (EAST/east/East/East Region...) vs master East/North/South/West -> normalised by strip/lower/remove ' region'/Title",
+    "stockouts.item_code vs dim_sku.sku_code vs promotions.sku are same values with different column names -> unified to sku_code",
+    "promotions start/end are DD/MM/YYYY vs sales week_start YYYY-MM-DD -> parsed dayfirst=True to ISO, expanded to overlapping weeks",
+    "sales weekly vs targets monthly -> week belongs to month containing week_start per DATA_DICTIONARY, aggregated to YYYY-MM before achievement",
+    "targets brand x region vs sales SKU x territory -> joined via sku->brand and territory->region masters",
+    "distributor->territory->region master chain vs stockouts.region free text -> master trusted, log region only as check",
+    "docs use pack phrases (Beverages 1L, 90g North, CremeDelight North Feb) vs SKU codes -> resolved via sku master + promo calendar, never guessed"
+  ]
+}

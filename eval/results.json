@@ -1,0 +1,14 @@
+{
+  "n": 35,
+  "correct": 35,
+  "accuracy": 1.0,
+  "fails": [],
+  "latency_ms": {
+    "p50": 1.8,
+    "p95": 98.2,
+    "min": 0.0,
+    "max": 1792.2
+  },
+  "cost_usd_median": 0.0,
+  "actions_checks": "West/all/North have rule_id+state"
+}

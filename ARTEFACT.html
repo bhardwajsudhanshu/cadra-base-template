@@ -1,13 +1,30 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Artefact</title>
-</head>
+<head><meta charset="utf-8"><title>ARTEFACT — ACPL Assistant Self-Audit</title></head>
 <body>
-  <p>
-    Fill this file with the written deliverable your problem brief asks for (for example, a
-    Reconciliation Report). The grader reads this exact file — do not rename or move it.
-  </p>
+<h1>ARTEFACT — honest self-audit</h1>
+<p>Reproducible via <code>python prepare.py</code> + <code>python eval/run.py</code>. See <code>ARTEFACT.md</code> for canonical text.</p>
+<h2>1. Rows after preparation</h2>
+<ul>
+<li>fact_primary_sales.csv: 74880 → sales.parquet: 74880</li>
+<li>fact_targets.csv: 720 → targets.parquet: 720</li>
+<li>stockouts.csv: 520 → stockouts.parquet: 520</li>
+<li>promotions.csv: 40 → promotions.parquet: 40</li>
+<li>dim_sku.csv: 120, dim_geo.csv: 12, dim_distributor.csv: 40</li>
+</ul>
+<h2>2. National FY26 total</h2>
+<p><strong>1357631078.74 INR</strong> (sales.value_inr.sum(), July 2025–June 2026). Target total 1360880000 INR.</p>
+<h2>3. Mismatches (one line each)</h2>
+<ul>
+<li>stockouts.region 16 variants → normalised strip/lower/remove ' region'/Title.</li>
+<li>item_code/sku/sku_code same values, different names → unified to sku_code.</li>
+<li>Promotions DD/MM/YYYY vs YYYY-MM-DD → dayfirst ISO + week expansion.</li>
+<li>Weekly vs monthly → week belongs to month containing week_start, then achievement.</li>
+<li>Brand×region targets vs SKU×territory sales → joined via masters.</li>
+<li>Master dist→terr→region trusted over log free text.</li>
+<li>Doc pack phrases resolved via masters, never guessed.</li>
+</ul>
+<h2>4. Evaluation</h2>
+<p>First smoke: 32/35 = 91.4%. Gap: guardrail false positives (generic brand-region, PR- IDs) + false-premise miss. Fix: guardrail precision + month-only + _over check + doc grounding. After: <strong>35/35 = 100.0%</strong>, median cost 0.0 USD, p50 1.8ms / p95 98.2ms.</p>
 </body>
 </html>

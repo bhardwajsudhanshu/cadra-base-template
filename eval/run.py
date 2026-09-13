@@ -3,6 +3,8 @@ import json, time, statistics
 from pathlib import Path
 from src.solvers import answer_question
 from src.playbook_engine import actions_for_scope
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
 BASE = Path(__file__).parent
 Qs = [json.loads(l) for l in (BASE / "questions.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]

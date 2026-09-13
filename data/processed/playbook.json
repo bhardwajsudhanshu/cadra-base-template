@@ -1,0 +1,58 @@
+[
+  {
+    "rule_id": "R-01",
+    "condition": "A brand misses target in a region (achievement < 70%) AND its SKUs have repeated stock-outs there",
+    "recommendation": "Supply is the likely constraint",
+    "action": "Expedite replenishment and escalate to the regional supply lead",
+    "needs_approval": "Yes"
+  },
+  {
+    "rule_id": "R-02",
+    "condition": "A brand misses target (< 80%) while a promotion is running with weak uplift (< 10%)",
+    "recommendation": "The promotion is underperforming",
+    "action": "Review promo effectiveness with the brand team",
+    "needs_approval": "No"
+  },
+  {
+    "rule_id": "R-03",
+    "condition": "A brand misses target (< 80%) with NO stock-out and NO promotion in the period",
+    "recommendation": "Cause is external or unknown",
+    "action": "Commission a market-visit / competitor check for the brand in that region",
+    "needs_approval": "No"
+  },
+  {
+    "rule_id": "R-04",
+    "condition": "A single distributor is out of stock for more than 6 weeks on a SKU",
+    "recommendation": "Chronic replenishment gap",
+    "action": "Raise a replenishment order for that distributor",
+    "needs_approval": "Yes"
+  },
+  {
+    "rule_id": "R-05",
+    "condition": "A brand over-delivers against target in a region (achievement > 110%)",
+    "recommendation": "Something is working",
+    "action": "Capture what worked and redeploy field effort elsewhere",
+    "needs_approval": "No"
+  },
+  {
+    "rule_id": "R-06",
+    "condition": "A brand misses target with no stock-out, no promotion, and no supporting note",
+    "recommendation": "No cause is determinable",
+    "action": "Flag for manual review; do not auto-attribute a cause",
+    "needs_approval": "No"
+  },
+  {
+    "rule_id": "R-07",
+    "condition": "A promotion delivered strong uplift (> 25%)",
+    "recommendation": "The mechanic worked",
+    "action": "Consider extending or replicating the mechanic in a comparable region",
+    "needs_approval": "No"
+  },
+  {
+    "rule_id": "R-08",
+    "condition": "A distributor shows stock-outs across 3 or more SKUs in a month",
+    "recommendation": "Distributor-level supply issue",
+    "action": "Schedule a distributor stock-review call",
+    "needs_approval": "Yes"
+  }
+]

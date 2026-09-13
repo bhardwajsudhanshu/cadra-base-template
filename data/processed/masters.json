@@ -1,0 +1,1352 @@
+{
+  "brands": [
+    "Aloe Vera Glow",
+    "Aqualite",
+    "Chai Mitra",
+    "CremeDelight",
+    "Crunchos",
+    "DishBright",
+    "FreshFloor",
+    "GlucoJoy",
+    "Marigold Marie",
+    "MintGuard",
+    "Namkeen Nation",
+    "PopKing",
+    "Silkessa",
+    "SparkClean",
+    "Zing Cola"
+  ],
+  "categories": [
+    "Beverages",
+    "Biscuits",
+    "Home Care",
+    "Personal Care",
+    "Snacks"
+  ],
+  "regions": [
+    "East",
+    "North",
+    "South",
+    "West"
+  ],
+  "territories": [
+    {
+      "territory_code": "T-N1",
+      "territory_name": "Delhi NCR",
+      "region": "North",
+      "state": "Delhi"
+    },
+    {
+      "territory_code": "T-N2",
+      "territory_name": "Jaipur",
+      "region": "North",
+      "state": "Rajasthan"
+    },
+    {
+      "territory_code": "T-N3",
+      "territory_name": "Lucknow",
+      "region": "North",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "territory_code": "T-S1",
+      "territory_name": "Bengaluru",
+      "region": "South",
+      "state": "Karnataka"
+    },
+    {
+      "territory_code": "T-S2",
+      "territory_name": "Chennai",
+      "region": "South",
+      "state": "Tamil Nadu"
+    },
+    {
+      "territory_code": "T-S3",
+      "territory_name": "Hyderabad",
+      "region": "South",
+      "state": "Telangana"
+    },
+    {
+      "territory_code": "T-E1",
+      "territory_name": "Kolkata",
+      "region": "East",
+      "state": "West Bengal"
+    },
+    {
+      "territory_code": "T-E2",
+      "territory_name": "Patna",
+      "region": "East",
+      "state": "Bihar"
+    },
+    {
+      "territory_code": "T-E3",
+      "territory_name": "Guwahati",
+      "region": "East",
+      "state": "Assam"
+    },
+    {
+      "territory_code": "T-W1",
+      "territory_name": "Mumbai",
+      "region": "West",
+      "state": "Maharashtra"
+    },
+    {
+      "territory_code": "T-W2",
+      "territory_name": "Pune",
+      "region": "West",
+      "state": "Maharashtra"
+    },
+    {
+      "territory_code": "T-W3",
+      "territory_name": "Ahmedabad",
+      "region": "West",
+      "state": "Gujarat"
+    }
+  ],
+  "skus": [
+    {
+      "sku_code": "BS-0101",
+      "sku_name": "GlucoJoy 50g",
+      "brand": "GlucoJoy",
+      "category": "Biscuits",
+      "pack_size": "50g",
+      "mrp_inr": 34
+    },
+    {
+      "sku_code": "BS-0102",
+      "sku_name": "GlucoJoy 100g",
+      "brand": "GlucoJoy",
+      "category": "Biscuits",
+      "pack_size": "100g",
+      "mrp_inr": 33
+    },
+    {
+      "sku_code": "BS-0103",
+      "sku_name": "GlucoJoy 200g",
+      "brand": "GlucoJoy",
+      "category": "Biscuits",
+      "pack_size": "200g",
+      "mrp_inr": 52
+    },
+    {
+      "sku_code": "BS-0104",
+      "sku_name": "GlucoJoy 400g",
+      "brand": "GlucoJoy",
+      "category": "Biscuits",
+      "pack_size": "400g",
+      "mrp_inr": 36
+    },
+    {
+      "sku_code": "BS-0105",
+      "sku_name": "GlucoJoy Family 800g",
+      "brand": "GlucoJoy",
+      "category": "Biscuits",
+      "pack_size": "Family 800g",
+      "mrp_inr": 128
+    },
+    {
+      "sku_code": "BS-0106",
+      "sku_name": "GlucoJoy Mini 30g",
+      "brand": "GlucoJoy",
+      "category": "Biscuits",
+      "pack_size": "Mini 30g",
+      "mrp_inr": 101
+    },
+    {
+      "sku_code": "BS-0107",
+      "sku_name": "GlucoJoy Twin 2x100g",
+      "brand": "GlucoJoy",
+      "category": "Biscuits",
+      "pack_size": "Twin 2x100g",
+      "mrp_inr": 103
+    },
+    {
+      "sku_code": "BS-0108",
+      "sku_name": "GlucoJoy Party 1kg",
+      "brand": "GlucoJoy",
+      "category": "Biscuits",
+      "pack_size": "Party 1kg",
+      "mrp_inr": 128
+    },
+    {
+      "sku_code": "BS-0201",
+      "sku_name": "CremeDelight 50g",
+      "brand": "CremeDelight",
+      "category": "Biscuits",
+      "pack_size": "50g",
+      "mrp_inr": 14
+    },
+    {
+      "sku_code": "BS-0202",
+      "sku_name": "CremeDelight 100g",
+      "brand": "CremeDelight",
+      "category": "Biscuits",
+      "pack_size": "100g",
+      "mrp_inr": 53
+    },
+    {
+      "sku_code": "BS-0203",
+      "sku_name": "CremeDelight 200g",
+      "brand": "CremeDelight",
+      "category": "Biscuits",
+      "pack_size": "200g",
+      "mrp_inr": 72
+    },
+    {
+      "sku_code": "BS-0204",
+      "sku_name": "CremeDelight 400g",
+      "brand": "CremeDelight",
+      "category": "Biscuits",
+      "pack_size": "400g",
+      "mrp_inr": 35
+    },
+    {
+      "sku_code": "BS-0205",
+      "sku_name": "CremeDelight Family 800g",
+      "brand": "CremeDelight",
+      "category": "Biscuits",
+      "pack_size": "Family 800g",
+      "mrp_inr": 72
+    },
+    {
+      "sku_code": "BS-0206",
+      "sku_name": "CremeDelight Mini 30g",
+      "brand": "CremeDelight",
+      "category": "Biscuits",
+      "pack_size": "Mini 30g",
+      "mrp_inr": 111
+    },
+    {
+      "sku_code": "BS-0207",
+      "sku_name": "CremeDelight Twin 2x100g",
+      "brand": "CremeDelight",
+      "category": "Biscuits",
+      "pack_size": "Twin 2x100g",
+      "mrp_inr": 136
+    },
+    {
+      "sku_code": "BS-0208",
+      "sku_name": "CremeDelight Party 1kg",
+      "brand": "CremeDelight",
+      "category": "Biscuits",
+      "pack_size": "Party 1kg",
+      "mrp_inr": 200
+    },
+    {
+      "sku_code": "BS-0301",
+      "sku_name": "Marigold Marie 50g",
+      "brand": "Marigold Marie",
+      "category": "Biscuits",
+      "pack_size": "50g",
+      "mrp_inr": 25
+    },
+    {
+      "sku_code": "BS-0302",
+      "sku_name": "Marigold Marie 100g",
+      "brand": "Marigold Marie",
+      "category": "Biscuits",
+      "pack_size": "100g",
+      "mrp_inr": 46
+    },
+    {
+      "sku_code": "BS-0303",
+      "sku_name": "Marigold Marie 200g",
+      "brand": "Marigold Marie",
+      "category": "Biscuits",
+      "pack_size": "200g",
+      "mrp_inr": 70
+    },
+    {
+      "sku_code": "BS-0304",
+      "sku_name": "Marigold Marie 400g",
+      "brand": "Marigold Marie",
+      "category": "Biscuits",
+      "pack_size": "400g",
+      "mrp_inr": 79
+    },
+    {
+      "sku_code": "BS-0305",
+      "sku_name": "Marigold Marie Family 800g",
+      "brand": "Marigold Marie",
+      "category": "Biscuits",
+      "pack_size": "Family 800g",
+      "mrp_inr": 81
+    },
+    {
+      "sku_code": "BS-0306",
+      "sku_name": "Marigold Marie Mini 30g",
+      "brand": "Marigold Marie",
+      "category": "Biscuits",
+      "pack_size": "Mini 30g",
+      "mrp_inr": 156
+    },
+    {
+      "sku_code": "BS-0307",
+      "sku_name": "Marigold Marie Twin 2x100g",
+      "brand": "Marigold Marie",
+      "category": "Biscuits",
+      "pack_size": "Twin 2x100g",
+      "mrp_inr": 150
+    },
+    {
+      "sku_code": "BS-0308",
+      "sku_name": "Marigold Marie Party 1kg",
+      "brand": "Marigold Marie",
+      "category": "Biscuits",
+      "pack_size": "Party 1kg",
+      "mrp_inr": 177
+    },
+    {
+      "sku_code": "SN-0101",
+      "sku_name": "Crunchos 25g",
+      "brand": "Crunchos",
+      "category": "Snacks",
+      "pack_size": "25g",
+      "mrp_inr": 15
+    },
+    {
+      "sku_code": "SN-0102",
+      "sku_name": "Crunchos 50g",
+      "brand": "Crunchos",
+      "category": "Snacks",
+      "pack_size": "50g",
+      "mrp_inr": 60
+    },
+    {
+      "sku_code": "SN-0103",
+      "sku_name": "Crunchos 90g",
+      "brand": "Crunchos",
+      "category": "Snacks",
+      "pack_size": "90g",
+      "mrp_inr": 31
+    },
+    {
+      "sku_code": "SN-0104",
+      "sku_name": "Crunchos 150g",
+      "brand": "Crunchos",
+      "category": "Snacks",
+      "pack_size": "150g",
+      "mrp_inr": 77
+    },
+    {
+      "sku_code": "SN-0105",
+      "sku_name": "Crunchos Sharing 250g",
+      "brand": "Crunchos",
+      "category": "Snacks",
+      "pack_size": "Sharing 250g",
+      "mrp_inr": 37
+    },
+    {
+      "sku_code": "SN-0106",
+      "sku_name": "Crunchos Party 400g",
+      "brand": "Crunchos",
+      "category": "Snacks",
+      "pack_size": "Party 400g",
+      "mrp_inr": 120
+    },
+    {
+      "sku_code": "SN-0107",
+      "sku_name": "Crunchos Mini 15g",
+      "brand": "Crunchos",
+      "category": "Snacks",
+      "pack_size": "Mini 15g",
+      "mrp_inr": 168
+    },
+    {
+      "sku_code": "SN-0108",
+      "sku_name": "Crunchos Combo 3x50g",
+      "brand": "Crunchos",
+      "category": "Snacks",
+      "pack_size": "Combo 3x50g",
+      "mrp_inr": 61
+    },
+    {
+      "sku_code": "SN-0201",
+      "sku_name": "Namkeen Nation 25g",
+      "brand": "Namkeen Nation",
+      "category": "Snacks",
+      "pack_size": "25g",
+      "mrp_inr": 17
+    },
+    {
+      "sku_code": "SN-0202",
+      "sku_name": "Namkeen Nation 50g",
+      "brand": "Namkeen Nation",
+      "category": "Snacks",
+      "pack_size": "50g",
+      "mrp_inr": 43
+    },
+    {
+      "sku_code": "SN-0203",
+      "sku_name": "Namkeen Nation 90g",
+      "brand": "Namkeen Nation",
+      "category": "Snacks",
+      "pack_size": "90g",
+      "mrp_inr": 34
+    },
+    {
+      "sku_code": "SN-0204",
+      "sku_name": "Namkeen Nation 150g",
+      "brand": "Namkeen Nation",
+      "category": "Snacks",
+      "pack_size": "150g",
+      "mrp_inr": 92
+    },
+    {
+      "sku_code": "SN-0205",
+      "sku_name": "Namkeen Nation Sharing 250g",
+      "brand": "Namkeen Nation",
+      "category": "Snacks",
+      "pack_size": "Sharing 250g",
+      "mrp_inr": 69
+    },
+    {
+      "sku_code": "SN-0206",
+      "sku_name": "Namkeen Nation Party 400g",
+      "brand": "Namkeen Nation",
+      "category": "Snacks",
+      "pack_size": "Party 400g",
+      "mrp_inr": 107
+    },
+    {
+      "sku_code": "SN-0207",
+      "sku_name": "Namkeen Nation Mini 15g",
+      "brand": "Namkeen Nation",
+      "category": "Snacks",
+      "pack_size": "Mini 15g",
+      "mrp_inr": 137
+    },
+    {
+      "sku_code": "SN-0208",
+      "sku_name": "Namkeen Nation Combo 3x50g",
+      "brand": "Namkeen Nation",
+      "category": "Snacks",
+      "pack_size": "Combo 3x50g",
+      "mrp_inr": 127
+    },
+    {
+      "sku_code": "SN-0301",
+      "sku_name": "PopKing 25g",
+      "brand": "PopKing",
+      "category": "Snacks",
+      "pack_size": "25g",
+      "mrp_inr": 27
+    },
+    {
+      "sku_code": "SN-0302",
+      "sku_name": "PopKing 50g",
+      "brand": "PopKing",
+      "category": "Snacks",
+      "pack_size": "50g",
+      "mrp_inr": 42
+    },
+    {
+      "sku_code": "SN-0303",
+      "sku_name": "PopKing 90g",
+      "brand": "PopKing",
+      "category": "Snacks",
+      "pack_size": "90g",
+      "mrp_inr": 67
+    },
+    {
+      "sku_code": "SN-0304",
+      "sku_name": "PopKing 150g",
+      "brand": "PopKing",
+      "category": "Snacks",
+      "pack_size": "150g",
+      "mrp_inr": 83
+    },
+    {
+      "sku_code": "SN-0305",
+      "sku_name": "PopKing Sharing 250g",
+      "brand": "PopKing",
+      "category": "Snacks",
+      "pack_size": "Sharing 250g",
+      "mrp_inr": 53
+    },
+    {
+      "sku_code": "SN-0306",
+      "sku_name": "PopKing Party 400g",
+      "brand": "PopKing",
+      "category": "Snacks",
+      "pack_size": "Party 400g",
+      "mrp_inr": 131
+    },
+    {
+      "sku_code": "SN-0307",
+      "sku_name": "PopKing Mini 15g",
+      "brand": "PopKing",
+      "category": "Snacks",
+      "pack_size": "Mini 15g",
+      "mrp_inr": 140
+    },
+    {
+      "sku_code": "SN-0308",
+      "sku_name": "PopKing Combo 3x50g",
+      "brand": "PopKing",
+      "category": "Snacks",
+      "pack_size": "Combo 3x50g",
+      "mrp_inr": 108
+    },
+    {
+      "sku_code": "BV-0101",
+      "sku_name": "Aqualite 200ml",
+      "brand": "Aqualite",
+      "category": "Beverages",
+      "pack_size": "200ml",
+      "mrp_inr": 27
+    },
+    {
+      "sku_code": "BV-0102",
+      "sku_name": "Aqualite 300ml",
+      "brand": "Aqualite",
+      "category": "Beverages",
+      "pack_size": "300ml",
+      "mrp_inr": 49
+    },
+    {
+      "sku_code": "BV-0103",
+      "sku_name": "Aqualite 500ml",
+      "brand": "Aqualite",
+      "category": "Beverages",
+      "pack_size": "500ml",
+      "mrp_inr": 37
+    },
+    {
+      "sku_code": "BV-0104",
+      "sku_name": "Aqualite 1L",
+      "brand": "Aqualite",
+      "category": "Beverages",
+      "pack_size": "1L",
+      "mrp_inr": 100
+    },
+    {
+      "sku_code": "BV-0105",
+      "sku_name": "Aqualite 1.5L",
+      "brand": "Aqualite",
+      "category": "Beverages",
+      "pack_size": "1.5L",
+      "mrp_inr": 115
+    },
+    {
+      "sku_code": "BV-0106",
+      "sku_name": "Aqualite 2L",
+      "brand": "Aqualite",
+      "category": "Beverages",
+      "pack_size": "2L",
+      "mrp_inr": 123
+    },
+    {
+      "sku_code": "BV-0107",
+      "sku_name": "Aqualite Tetra 250ml",
+      "brand": "Aqualite",
+      "category": "Beverages",
+      "pack_size": "Tetra 250ml",
+      "mrp_inr": 171
+    },
+    {
+      "sku_code": "BV-0108",
+      "sku_name": "Aqualite Multipack 6x300ml",
+      "brand": "Aqualite",
+      "category": "Beverages",
+      "pack_size": "Multipack 6x300ml",
+      "mrp_inr": 103
+    },
+    {
+      "sku_code": "BV-0201",
+      "sku_name": "Zing Cola 200ml",
+      "brand": "Zing Cola",
+      "category": "Beverages",
+      "pack_size": "200ml",
+      "mrp_inr": 17
+    },
+    {
+      "sku_code": "BV-0202",
+      "sku_name": "Zing Cola 300ml",
+      "brand": "Zing Cola",
+      "category": "Beverages",
+      "pack_size": "300ml",
+      "mrp_inr": 40
+    },
+    {
+      "sku_code": "BV-0203",
+      "sku_name": "Zing Cola 500ml",
+      "brand": "Zing Cola",
+      "category": "Beverages",
+      "pack_size": "500ml",
+      "mrp_inr": 58
+    },
+    {
+      "sku_code": "BV-0204",
+      "sku_name": "Zing Cola 1L",
+      "brand": "Zing Cola",
+      "category": "Beverages",
+      "pack_size": "1L",
+      "mrp_inr": 63
+    },
+    {
+      "sku_code": "BV-0205",
+      "sku_name": "Zing Cola 1.5L",
+      "brand": "Zing Cola",
+      "category": "Beverages",
+      "pack_size": "1.5L",
+      "mrp_inr": 67
+    },
+    {
+      "sku_code": "BV-0206",
+      "sku_name": "Zing Cola 2L",
+      "brand": "Zing Cola",
+      "category": "Beverages",
+      "pack_size": "2L",
+      "mrp_inr": 132
+    },
+    {
+      "sku_code": "BV-0207",
+      "sku_name": "Zing Cola Tetra 250ml",
+      "brand": "Zing Cola",
+      "category": "Beverages",
+      "pack_size": "Tetra 250ml",
+      "mrp_inr": 70
+    },
+    {
+      "sku_code": "BV-0208",
+      "sku_name": "Zing Cola Multipack 6x300ml",
+      "brand": "Zing Cola",
+      "category": "Beverages",
+      "pack_size": "Multipack 6x300ml",
+      "mrp_inr": 55
+    },
+    {
+      "sku_code": "BV-0301",
+      "sku_name": "Chai Mitra 200ml",
+      "brand": "Chai Mitra",
+      "category": "Beverages",
+      "pack_size": "200ml",
+      "mrp_inr": 34
+    },
+    {
+      "sku_code": "BV-0302",
+      "sku_name": "Chai Mitra 300ml",
+      "brand": "Chai Mitra",
+      "category": "Beverages",
+      "pack_size": "300ml",
+      "mrp_inr": 44
+    },
+    {
+      "sku_code": "BV-0303",
+      "sku_name": "Chai Mitra 500ml",
+      "brand": "Chai Mitra",
+      "category": "Beverages",
+      "pack_size": "500ml",
+      "mrp_inr": 65
+    },
+    {
+      "sku_code": "BV-0304",
+      "sku_name": "Chai Mitra 1L",
+      "brand": "Chai Mitra",
+      "category": "Beverages",
+      "pack_size": "1L",
+      "mrp_inr": 110
+    },
+    {
+      "sku_code": "BV-0305",
+      "sku_name": "Chai Mitra 1.5L",
+      "brand": "Chai Mitra",
+      "category": "Beverages",
+      "pack_size": "1.5L",
+      "mrp_inr": 91
+    },
+    {
+      "sku_code": "BV-0306",
+      "sku_name": "Chai Mitra 2L",
+      "brand": "Chai Mitra",
+      "category": "Beverages",
+      "pack_size": "2L",
+      "mrp_inr": 95
+    },
+    {
+      "sku_code": "BV-0307",
+      "sku_name": "Chai Mitra Tetra 250ml",
+      "brand": "Chai Mitra",
+      "category": "Beverages",
+      "pack_size": "Tetra 250ml",
+      "mrp_inr": 121
+    },
+    {
+      "sku_code": "BV-0308",
+      "sku_name": "Chai Mitra Multipack 6x300ml",
+      "brand": "Chai Mitra",
+      "category": "Beverages",
+      "pack_size": "Multipack 6x300ml",
+      "mrp_inr": 75
+    },
+    {
+      "sku_code": "HC-0101",
+      "sku_name": "SparkClean 250ml",
+      "brand": "SparkClean",
+      "category": "Home Care",
+      "pack_size": "250ml",
+      "mrp_inr": 35
+    },
+    {
+      "sku_code": "HC-0102",
+      "sku_name": "SparkClean 500ml",
+      "brand": "SparkClean",
+      "category": "Home Care",
+      "pack_size": "500ml",
+      "mrp_inr": 54
+    },
+    {
+      "sku_code": "HC-0103",
+      "sku_name": "SparkClean 1L",
+      "brand": "SparkClean",
+      "category": "Home Care",
+      "pack_size": "1L",
+      "mrp_inr": 69
+    },
+    {
+      "sku_code": "HC-0104",
+      "sku_name": "SparkClean 2L",
+      "brand": "SparkClean",
+      "category": "Home Care",
+      "pack_size": "2L",
+      "mrp_inr": 108
+    },
+    {
+      "sku_code": "HC-0105",
+      "sku_name": "SparkClean Refill 800ml",
+      "brand": "SparkClean",
+      "category": "Home Care",
+      "pack_size": "Refill 800ml",
+      "mrp_inr": 61
+    },
+    {
+      "sku_code": "HC-0106",
+      "sku_name": "SparkClean Bar 150g",
+      "brand": "SparkClean",
+      "category": "Home Care",
+      "pack_size": "Bar 150g",
+      "mrp_inr": 101
+    },
+    {
+      "sku_code": "HC-0107",
+      "sku_name": "SparkClean Sachet 20ml",
+      "brand": "SparkClean",
+      "category": "Home Care",
+      "pack_size": "Sachet 20ml",
+      "mrp_inr": 116
+    },
+    {
+      "sku_code": "HC-0108",
+      "sku_name": "SparkClean Combo 1L+250ml",
+      "brand": "SparkClean",
+      "category": "Home Care",
+      "pack_size": "Combo 1L+250ml",
+      "mrp_inr": 190
+    },
+    {
+      "sku_code": "HC-0201",
+      "sku_name": "FreshFloor 250ml",
+      "brand": "FreshFloor",
+      "category": "Home Care",
+      "pack_size": "250ml",
+      "mrp_inr": 34
+    },
+    {
+      "sku_code": "HC-0202",
+      "sku_name": "FreshFloor 500ml",
+      "brand": "FreshFloor",
+      "category": "Home Care",
+      "pack_size": "500ml",
+      "mrp_inr": 58
+    },
+    {
+      "sku_code": "HC-0203",
+      "sku_name": "FreshFloor 1L",
+      "brand": "FreshFloor",
+      "category": "Home Care",
+      "pack_size": "1L",
+      "mrp_inr": 44
+    },
+    {
+      "sku_code": "HC-0204",
+      "sku_name": "FreshFloor 2L",
+      "brand": "FreshFloor",
+      "category": "Home Care",
+      "pack_size": "2L",
+      "mrp_inr": 30
+    },
+    {
+      "sku_code": "HC-0205",
+      "sku_name": "FreshFloor Refill 800ml",
+      "brand": "FreshFloor",
+      "category": "Home Care",
+      "pack_size": "Refill 800ml",
+      "mrp_inr": 111
+    },
+    {
+      "sku_code": "HC-0206",
+      "sku_name": "FreshFloor Bar 150g",
+      "brand": "FreshFloor",
+      "category": "Home Care",
+      "pack_size": "Bar 150g",
+      "mrp_inr": 140
+    },
+    {
+      "sku_code": "HC-0207",
+      "sku_name": "FreshFloor Sachet 20ml",
+      "brand": "FreshFloor",
+      "category": "Home Care",
+      "pack_size": "Sachet 20ml",
+      "mrp_inr": 54
+    },
+    {
+      "sku_code": "HC-0208",
+      "sku_name": "FreshFloor Combo 1L+250ml",
+      "brand": "FreshFloor",
+      "category": "Home Care",
+      "pack_size": "Combo 1L+250ml",
+      "mrp_inr": 83
+    },
+    {
+      "sku_code": "HC-0301",
+      "sku_name": "DishBright 250ml",
+      "brand": "DishBright",
+      "category": "Home Care",
+      "pack_size": "250ml",
+      "mrp_inr": 31
+    },
+    {
+      "sku_code": "HC-0302",
+      "sku_name": "DishBright 500ml",
+      "brand": "DishBright",
+      "category": "Home Care",
+      "pack_size": "500ml",
+      "mrp_inr": 41
+    },
+    {
+      "sku_code": "HC-0303",
+      "sku_name": "DishBright 1L",
+      "brand": "DishBright",
+      "category": "Home Care",
+      "pack_size": "1L",
+      "mrp_inr": 27
+    },
+    {
+      "sku_code": "HC-0304",
+      "sku_name": "DishBright 2L",
+      "brand": "DishBright",
+      "category": "Home Care",
+      "pack_size": "2L",
+      "mrp_inr": 33
+    },
+    {
+      "sku_code": "HC-0305",
+      "sku_name": "DishBright Refill 800ml",
+      "brand": "DishBright",
+      "category": "Home Care",
+      "pack_size": "Refill 800ml",
+      "mrp_inr": 48
+    },
+    {
+      "sku_code": "HC-0306",
+      "sku_name": "DishBright Bar 150g",
+      "brand": "DishBright",
+      "category": "Home Care",
+      "pack_size": "Bar 150g",
+      "mrp_inr": 143
+    },
+    {
+      "sku_code": "HC-0307",
+      "sku_name": "DishBright Sachet 20ml",
+      "brand": "DishBright",
+      "category": "Home Care",
+      "pack_size": "Sachet 20ml",
+      "mrp_inr": 47
+    },
+    {
+      "sku_code": "HC-0308",
+      "sku_name": "DishBright Combo 1L+250ml",
+      "brand": "DishBright",
+      "category": "Home Care",
+      "pack_size": "Combo 1L+250ml",
+      "mrp_inr": 104
+    },
+    {
+      "sku_code": "PC-0101",
+      "sku_name": "Silkessa 50ml",
+      "brand": "Silkessa",
+      "category": "Personal Care",
+      "pack_size": "50ml",
+      "mrp_inr": 19
+    },
+    {
+      "sku_code": "PC-0102",
+      "sku_name": "Silkessa 100ml",
+      "brand": "Silkessa",
+      "category": "Personal Care",
+      "pack_size": "100ml",
+      "mrp_inr": 52
+    },
+    {
+      "sku_code": "PC-0103",
+      "sku_name": "Silkessa 200ml",
+      "brand": "Silkessa",
+      "category": "Personal Care",
+      "pack_size": "200ml",
+      "mrp_inr": 41
+    },
+    {
+      "sku_code": "PC-0104",
+      "sku_name": "Silkessa 400ml",
+      "brand": "Silkessa",
+      "category": "Personal Care",
+      "pack_size": "400ml",
+      "mrp_inr": 31
+    },
+    {
+      "sku_code": "PC-0105",
+      "sku_name": "Silkessa Sachet 8ml",
+      "brand": "Silkessa",
+      "category": "Personal Care",
+      "pack_size": "Sachet 8ml",
+      "mrp_inr": 52
+    },
+    {
+      "sku_code": "PC-0106",
+      "sku_name": "Silkessa Bar 75g",
+      "brand": "Silkessa",
+      "category": "Personal Care",
+      "pack_size": "Bar 75g",
+      "mrp_inr": 124
+    },
+    {
+      "sku_code": "PC-0107",
+      "sku_name": "Silkessa Twin 2x100ml",
+      "brand": "Silkessa",
+      "category": "Personal Care",
+      "pack_size": "Twin 2x100ml",
+      "mrp_inr": 62
+    },
+    {
+      "sku_code": "PC-0108",
+      "sku_name": "Silkessa Family 750ml",
+      "brand": "Silkessa",
+      "category": "Personal Care",
+      "pack_size": "Family 750ml",
+      "mrp_inr": 206
+    },
+    {
+      "sku_code": "PC-0201",
+      "sku_name": "MintGuard 50ml",
+      "brand": "MintGuard",
+      "category": "Personal Care",
+      "pack_size": "50ml",
+      "mrp_inr": 24
+    },
+    {
+      "sku_code": "PC-0202",
+      "sku_name": "MintGuard 100ml",
+      "brand": "MintGuard",
+      "category": "Personal Care",
+      "pack_size": "100ml",
+      "mrp_inr": 48
+    },
+    {
+      "sku_code": "PC-0203",
+      "sku_name": "MintGuard 200ml",
+      "brand": "MintGuard",
+      "category": "Personal Care",
+      "pack_size": "200ml",
+      "mrp_inr": 39
+    },
+    {
+      "sku_code": "PC-0204",
+      "sku_name": "MintGuard 400ml",
+      "brand": "MintGuard",
+      "category": "Personal Care",
+      "pack_size": "400ml",
+      "mrp_inr": 93
+    },
+    {
+      "sku_code": "PC-0205",
+      "sku_name": "MintGuard Sachet 8ml",
+      "brand": "MintGuard",
+      "category": "Personal Care",
+      "pack_size": "Sachet 8ml",
+      "mrp_inr": 62
+    },
+    {
+      "sku_code": "PC-0206",
+      "sku_name": "MintGuard Bar 75g",
+      "brand": "MintGuard",
+      "category": "Personal Care",
+      "pack_size": "Bar 75g",
+      "mrp_inr": 114
+    },
+    {
+      "sku_code": "PC-0207",
+      "sku_name": "MintGuard Twin 2x100ml",
+      "brand": "MintGuard",
+      "category": "Personal Care",
+      "pack_size": "Twin 2x100ml",
+      "mrp_inr": 167
+    },
+    {
+      "sku_code": "PC-0208",
+      "sku_name": "MintGuard Family 750ml",
+      "brand": "MintGuard",
+      "category": "Personal Care",
+      "pack_size": "Family 750ml",
+      "mrp_inr": 110
+    },
+    {
+      "sku_code": "PC-0301",
+      "sku_name": "Aloe Vera Glow 50ml",
+      "brand": "Aloe Vera Glow",
+      "category": "Personal Care",
+      "pack_size": "50ml",
+      "mrp_inr": 13
+    },
+    {
+      "sku_code": "PC-0302",
+      "sku_name": "Aloe Vera Glow 100ml",
+      "brand": "Aloe Vera Glow",
+      "category": "Personal Care",
+      "pack_size": "100ml",
+      "mrp_inr": 42
+    },
+    {
+      "sku_code": "PC-0303",
+      "sku_name": "Aloe Vera Glow 200ml",
+      "brand": "Aloe Vera Glow",
+      "category": "Personal Care",
+      "pack_size": "200ml",
+      "mrp_inr": 75
+    },
+    {
+      "sku_code": "PC-0304",
+      "sku_name": "Aloe Vera Glow 400ml",
+      "brand": "Aloe Vera Glow",
+      "category": "Personal Care",
+      "pack_size": "400ml",
+      "mrp_inr": 56
+    },
+    {
+      "sku_code": "PC-0305",
+      "sku_name": "Aloe Vera Glow Sachet 8ml",
+      "brand": "Aloe Vera Glow",
+      "category": "Personal Care",
+      "pack_size": "Sachet 8ml",
+      "mrp_inr": 85
+    },
+    {
+      "sku_code": "PC-0306",
+      "sku_name": "Aloe Vera Glow Bar 75g",
+      "brand": "Aloe Vera Glow",
+      "category": "Personal Care",
+      "pack_size": "Bar 75g",
+      "mrp_inr": 52
+    },
+    {
+      "sku_code": "PC-0307",
+      "sku_name": "Aloe Vera Glow Twin 2x100ml",
+      "brand": "Aloe Vera Glow",
+      "category": "Personal Care",
+      "pack_size": "Twin 2x100ml",
+      "mrp_inr": 173
+    },
+    {
+      "sku_code": "PC-0308",
+      "sku_name": "Aloe Vera Glow Family 750ml",
+      "brand": "Aloe Vera Glow",
+      "category": "Personal Care",
+      "pack_size": "Family 750ml",
+      "mrp_inr": 102
+    }
+  ],
+  "distributors": [
+    {
+      "distributor_id": "D001",
+      "distributor_name": "Delhi Sales Corp 1",
+      "territory_code": "T-N1",
+      "city": "Delhi NCR"
+    },
+    {
+      "distributor_id": "D002",
+      "distributor_name": "Delhi Agencies 2",
+      "territory_code": "T-N1",
+      "city": "Delhi NCR"
+    },
+    {
+      "distributor_id": "D003",
+      "distributor_name": "Delhi Trading Co 3",
+      "territory_code": "T-N1",
+      "city": "Delhi NCR"
+    },
+    {
+      "distributor_id": "D004",
+      "distributor_name": "Delhi Agencies 4",
+      "territory_code": "T-N1",
+      "city": "Delhi NCR"
+    },
+    {
+      "distributor_id": "D005",
+      "distributor_name": "Jaipur & Sons 1",
+      "territory_code": "T-N2",
+      "city": "Jaipur"
+    },
+    {
+      "distributor_id": "D006",
+      "distributor_name": "Jaipur Sales Corp 2",
+      "territory_code": "T-N2",
+      "city": "Jaipur"
+    },
+    {
+      "distributor_id": "D007",
+      "distributor_name": "Jaipur Agencies 3",
+      "territory_code": "T-N2",
+      "city": "Jaipur"
+    },
+    {
+      "distributor_id": "D008",
+      "distributor_name": "Jaipur Traders 4",
+      "territory_code": "T-N2",
+      "city": "Jaipur"
+    },
+    {
+      "distributor_id": "D009",
+      "distributor_name": "Lucknow Traders 1",
+      "territory_code": "T-N3",
+      "city": "Lucknow"
+    },
+    {
+      "distributor_id": "D010",
+      "distributor_name": "Lucknow Enterprises 2",
+      "territory_code": "T-N3",
+      "city": "Lucknow"
+    },
+    {
+      "distributor_id": "D011",
+      "distributor_name": "Lucknow Enterprises 3",
+      "territory_code": "T-N3",
+      "city": "Lucknow"
+    },
+    {
+      "distributor_id": "D012",
+      "distributor_name": "Lucknow Marketing 4",
+      "territory_code": "T-N3",
+      "city": "Lucknow"
+    },
+    {
+      "distributor_id": "D013",
+      "distributor_name": "Bengaluru Enterprises 1",
+      "territory_code": "T-S1",
+      "city": "Bengaluru"
+    },
+    {
+      "distributor_id": "D014",
+      "distributor_name": "Bengaluru Sales Corp 2",
+      "territory_code": "T-S1",
+      "city": "Bengaluru"
+    },
+    {
+      "distributor_id": "D015",
+      "distributor_name": "Bengaluru Agencies 3",
+      "territory_code": "T-S1",
+      "city": "Bengaluru"
+    },
+    {
+      "distributor_id": "D016",
+      "distributor_name": "Bengaluru Traders 4",
+      "territory_code": "T-S1",
+      "city": "Bengaluru"
+    },
+    {
+      "distributor_id": "D017",
+      "distributor_name": "Chennai Sales Corp 1",
+      "territory_code": "T-S2",
+      "city": "Chennai"
+    },
+    {
+      "distributor_id": "D018",
+      "distributor_name": "Chennai Marketing 2",
+      "territory_code": "T-S2",
+      "city": "Chennai"
+    },
+    {
+      "distributor_id": "D019",
+      "distributor_name": "Chennai Enterprises 3",
+      "territory_code": "T-S2",
+      "city": "Chennai"
+    },
+    {
+      "distributor_id": "D020",
+      "distributor_name": "Hyderabad Trading Co 1",
+      "territory_code": "T-S3",
+      "city": "Hyderabad"
+    },
+    {
+      "distributor_id": "D021",
+      "distributor_name": "Hyderabad Traders 2",
+      "territory_code": "T-S3",
+      "city": "Hyderabad"
+    },
+    {
+      "distributor_id": "D022",
+      "distributor_name": "Hyderabad Marketing 3",
+      "territory_code": "T-S3",
+      "city": "Hyderabad"
+    },
+    {
+      "distributor_id": "D023",
+      "distributor_name": "Kolkata Traders 1",
+      "territory_code": "T-E1",
+      "city": "Kolkata"
+    },
+    {
+      "distributor_id": "D024",
+      "distributor_name": "Kolkata Marketing 2",
+      "territory_code": "T-E1",
+      "city": "Kolkata"
+    },
+    {
+      "distributor_id": "D025",
+      "distributor_name": "Kolkata & Sons 3",
+      "territory_code": "T-E1",
+      "city": "Kolkata"
+    },
+    {
+      "distributor_id": "D026",
+      "distributor_name": "Patna & Sons 1",
+      "territory_code": "T-E2",
+      "city": "Patna"
+    },
+    {
+      "distributor_id": "D027",
+      "distributor_name": "Patna & Sons 2",
+      "territory_code": "T-E2",
+      "city": "Patna"
+    },
+    {
+      "distributor_id": "D028",
+      "distributor_name": "Patna & Sons 3",
+      "territory_code": "T-E2",
+      "city": "Patna"
+    },
+    {
+      "distributor_id": "D029",
+      "distributor_name": "Guwahati Marketing 1",
+      "territory_code": "T-E3",
+      "city": "Guwahati"
+    },
+    {
+      "distributor_id": "D030",
+      "distributor_name": "Guwahati Enterprises 2",
+      "territory_code": "T-E3",
+      "city": "Guwahati"
+    },
+    {
+      "distributor_id": "D031",
+      "distributor_name": "Guwahati & Sons 3",
+      "territory_code": "T-E3",
+      "city": "Guwahati"
+    },
+    {
+      "distributor_id": "D032",
+      "distributor_name": "Mumbai & Sons 1",
+      "territory_code": "T-W1",
+      "city": "Mumbai"
+    },
+    {
+      "distributor_id": "D033",
+      "distributor_name": "Mumbai Distributors 2",
+      "territory_code": "T-W1",
+      "city": "Mumbai"
+    },
+    {
+      "distributor_id": "D034",
+      "distributor_name": "Mumbai Distributors 3",
+      "territory_code": "T-W1",
+      "city": "Mumbai"
+    },
+    {
+      "distributor_id": "D035",
+      "distributor_name": "Pune Sales Corp 1",
+      "territory_code": "T-W2",
+      "city": "Pune"
+    },
+    {
+      "distributor_id": "D036",
+      "distributor_name": "Pune Distributors 2",
+      "territory_code": "T-W2",
+      "city": "Pune"
+    },
+    {
+      "distributor_id": "D037",
+      "distributor_name": "Pune Trading Co 3",
+      "territory_code": "T-W2",
+      "city": "Pune"
+    },
+    {
+      "distributor_id": "D038",
+      "distributor_name": "Ahmedabad Agencies 1",
+      "territory_code": "T-W3",
+      "city": "Ahmedabad"
+    },
+    {
+      "distributor_id": "D039",
+      "distributor_name": "Ahmedabad Marketing 2",
+      "territory_code": "T-W3",
+      "city": "Ahmedabad"
+    },
+    {
+      "distributor_id": "D040",
+      "distributor_name": "Ahmedabad Marketing 3",
+      "territory_code": "T-W3",
+      "city": "Ahmedabad"
+    }
+  ],
+  "promo_ids": [
+    "PR-2025-011",
+    "PR-2025-021",
+    "PR-2025-024",
+    "PR-2025-025",
+    "PR-2025-026",
+    "PR-2025-030",
+    "PR-2025-031",
+    "PR-2025-032",
+    "PR-2025-035",
+    "PR-2025-039",
+    "PR-2025-041",
+    "PR-2025-043",
+    "PR-2025-045",
+    "PR-2025-046",
+    "PR-2025-047",
+    "PR-2025-049",
+    "PR-2025-051",
+    "PR-2025-055",
+    "PR-2025-056",
+    "PR-2025-057",
+    "PR-2025-058",
+    "PR-2026-005",
+    "PR-2026-022",
+    "PR-2026-023",
+    "PR-2026-027",
+    "PR-2026-028",
+    "PR-2026-029",
+    "PR-2026-033",
+    "PR-2026-034",
+    "PR-2026-036",
+    "PR-2026-037",
+    "PR-2026-038",
+    "PR-2026-040",
+    "PR-2026-042",
+    "PR-2026-044",
+    "PR-2026-048",
+    "PR-2026-050",
+    "PR-2026-052",
+    "PR-2026-053",
+    "PR-2026-054"
+  ]
+}
